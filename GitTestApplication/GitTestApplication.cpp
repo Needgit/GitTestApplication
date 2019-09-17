@@ -6,7 +6,7 @@
 
 void foo2()
 {
-  std::cout << "foo2!\n";
+  std::cout << "foo2  foo2\n";
 }
 
 int main()
@@ -18,7 +18,7 @@ int main()
 
 void foo1()
 {
-    std::cout << "foo1!\n"; 
+    std::cout << "foo1!!!!!!!!\n"; 
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
