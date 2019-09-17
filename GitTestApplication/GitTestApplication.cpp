@@ -18,6 +18,9 @@ int main()
     foo1();
     std::cout << "Hello World!\n"; 
     std::cout << "main feature_foo1!\n"; 
+
+
+    int i = 10;
 }
 
 void foo1()
