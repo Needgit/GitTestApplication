@@ -13,8 +13,13 @@ int main()
 {
     foo2();
     std::cout << "Hello World!\n"; 
+    std::cout << "main feature_foo1!\n"; 
 }
 
+void foo1()
+{
+    std::cout << "foo1!\n"; 
+}
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
