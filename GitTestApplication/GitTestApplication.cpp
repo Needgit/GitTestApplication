@@ -16,7 +16,7 @@ int main()
     foo(2);
     foo(3);
     foo1();
-    std::cout << "Hello World!\n"; 
+    std::cout << "Hello, World!\n";
     std::cout << "main feature_foo1!\n"; 
 
 
