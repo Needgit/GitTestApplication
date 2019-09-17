@@ -4,10 +4,17 @@
 #include "pch.h"
 #include <iostream>
 
+void foo2()
+{
+  std::cout << "foo2!\n";
+}
+
 int main()
 {
+    foo2();
     std::cout << "Hello World!\n"; 
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
