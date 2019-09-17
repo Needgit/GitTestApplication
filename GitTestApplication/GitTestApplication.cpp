@@ -4,21 +4,16 @@
 #include "pch.h"
 #include <iostream>
 
-void foo2()
+void foo(int i)
 {
-  std::cout << "foo2!\n";
+  std::cout << "foo" << i << std::endl;
 }
 
 int main()
 {
-    foo2();
-    std::cout << "Hello World!\n"; 
-    std::cout << "main feature_foo1!\n"; 
-}
-
-void foo1()
-{
-    std::cout << "foo1!\n"; 
+    foo(1);
+    foo(2);
+    foo(3);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
